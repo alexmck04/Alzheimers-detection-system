@@ -37,9 +37,9 @@ Firebase is used to support authentication, data storage and communication betwe
 
 ### Android Patient Application
 
-<p align="center">
-  <img src="screenshots/patient-login.jpg" width="200" alt="Patient Login">
-  <img src="screenshots/patient-test.jpg" width="200" alt="Patient Assessment">
+<p>
+  <img src="screenshots/patient-login.jpg" width="250" alt="Patient Login">
+  <img src="screenshots/patient-test.jpg" width="250" alt="Patient Assessment">
 </p>
 
 

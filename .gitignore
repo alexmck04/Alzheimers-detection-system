@@ -1,18 +1,12 @@
+
 # -------------------------
 # ANDROID
 # -------------------------
 
-# Gradle files
 .gradle/
 build/
-
-# Local configuration file (sdk path, etc)
 local.properties
-
-# Log/OS Files
 *.log
-
-# Android Studio generated files and folders
 captures/
 .externalNativeBuild/
 .cxx/
@@ -20,21 +14,19 @@ captures/
 *.apk
 output-metadata.json
 
-# IntelliJ
+# Android Studio / IntelliJ
 *.iml
 .idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
-# Keystore files
+# Keystores and Firebase configuration
 *.jks
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
 google-services.json
 
-# Android Profiling
+# Android profiling
 *.hprof
 
 
@@ -42,34 +34,32 @@ google-services.json
 # NODE / REACT / WEB APP
 # -------------------------
 
-# Dependencies
 node_modules/
-
-# Production builds
-build/
 dist/
+build/
 
-# Debug / Logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # Environment variables
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
+
+# Firebase local files
+.firebase/
+.runtimeconfig.json
 
 # Misc
 .DS_Store
 
 
 # -------------------------
-# PYTHON (Backend)
+# PYTHON
 # -------------------------
 
-# Byte-compiled / optimized files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -77,12 +67,9 @@ __pycache__/
 # Distribution / packaging
 *.egg
 *.egg-info/
-dist/
-build/
 .eggs/
 
 # Virtual environments
-.env/
 venv/
 ENV/
 env/
@@ -92,57 +79,32 @@ env/
 *.manifest
 *.spec
 
-# Unit test / coverage reports
+# Testing / coverage
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Jupyter notebooks
+# Jupyter
 .ipynb_checkpoints
 
-# SQLite / Databases
+# Local databases
 *.sqlite3
 *.db
 
+
+# -------------------------
+# GENERAL / PROJECT-SPECIFIC
+# -------------------------
+
 # IDE settings
 .vscode/
-.idea/
 
-
-# Environment and sensitive configuration
-.env
-.env.*
-!.env.example
-**/google-services.json
-**/local.properties
-**/.runtimeconfig.json
+# Sensitive configuration
 **/keys/
-
-# Dependencies
-**/node_modules/
-
-# Build output
-**/build/
-**/dist/
-**/.gradle/
-
-# IDE and local files
-**/.idea/
-**/.vscode/
-**/.DS_Store
-
-# Python
-**/__pycache__/
-**/*.py[cod]
-**/venv/
-**/.venv/
-
-# Firebase
-**/.firebase/
-
-# Local user data
 **/users.txt
 
-# Legacy backend
+# Legacy backend (not used by the main portal)
 web/my-react-app/backend/
+
+# Old deployment notes
 NMS-AI/restartheserver

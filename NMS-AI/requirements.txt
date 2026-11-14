@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+crewai
+langchain-google-genai
+langchain-openai
+tensorflow-cpu
+librosa
+numpy
+feedparser
+firebase-admin
+google-cloud-firestore
